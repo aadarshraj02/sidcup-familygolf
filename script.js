@@ -1,5 +1,6 @@
 let cursor = document.querySelector("#cursor");
 let cursorBlur = document.querySelector("#cursor-blur");
+let cursorBlurOverlay = document.getElementById("cursor-blur-overlay");
 
 var timeout;
 function circleSkew() {
@@ -33,6 +34,9 @@ function circleMouseFollow(xScale, yScale) {
 document.addEventListener("mousemove", (details) => {
   cursorBlur.style.left = details.x - 150 + "px";
   cursorBlur.style.top = details.y - 150 + "px";
+
+  cursorBlurOverlay.style.left = details.x - 100 + "px";
+  cursorBlurOverlay.style.top = details.y - 100 + "px";
 });
 
 gsap.to("#nav", {
