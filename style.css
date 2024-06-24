@@ -10,6 +10,11 @@
   font-family: mont;
   color: #fff;
 }
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 #nav {
   height: 100px;
   width: 100%;
@@ -22,7 +27,7 @@
   z-index: 10;
 }
 #nav img {
-  height: 70px;
+  height: 4.5vw;
 }
 #nav h4 {
   text-transform: uppercase;
@@ -33,7 +38,7 @@ video {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
 #main {
@@ -50,19 +55,20 @@ video {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  z-index: 1;
 }
 #page1 h1 {
-  font-size: 90px;
+  font-size: 7.5vw;
   font-weight: 900;
   position: relative;
 }
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
   position: absolute;
+  color: #000;
   top: -4px;
   left: -4px;
-  color: #000;
-  -webkit-text-stroke: 0.1px #95c11e;
+  -webkit-text-stroke: 1px #95c11e;
   z-index: -1;
 }
 #page1 h2 {
@@ -79,4 +85,5 @@ video {
 #page2 {
   height: 100vh;
   width: 100%;
+  z-index: 10;
 }

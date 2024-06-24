@@ -10,3 +10,14 @@ gsap.to("#nav", {
     scrub: 1,
   },
 });
+
+gsap.to("#main", {
+  backgroundColor: "#000",
+  scrollTrigger: {
+    trigger: "#main",
+    scroller: "body",
+    start: "top -30%",
+    end: "top -80%",
+    scrub: 3,
+  },
+});
