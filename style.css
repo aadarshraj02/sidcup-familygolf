@@ -13,12 +13,13 @@
 #nav {
   height: 100px;
   width: 100%;
-  background-color: rebeccapurple;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 100px;
   gap: 35px;
+  position: fixed;
+  z-index: 10;
 }
 #nav img {
   height: 70px;
@@ -27,4 +28,10 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
+}
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
 }
