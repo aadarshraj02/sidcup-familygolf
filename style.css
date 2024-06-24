@@ -1,5 +1,30 @@
+@font-face {
+  font-family: mont;
+  src: url("montserrat-latin-400-normal.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: mont;
+  color: #fff;
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 100px;
+  gap: 35px;
+}
+#nav img {
+  height: 70px;
+}
+#nav h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
 }
