@@ -32,6 +32,7 @@ body {
   position: fixed;
   filter: blur(30px);
   z-index: 9;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
 }
 #cursor-blur-overlay {
   height: 200px;
@@ -42,6 +43,7 @@ body {
   filter: blur(20px);
   z-index: 8;
   pointer-events: none;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
 }
 
 #nav {
