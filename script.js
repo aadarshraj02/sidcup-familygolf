@@ -81,3 +81,30 @@ const tiltOptions = {
 };
 
 initializeTilt(".cards", tiltOptions);
+
+h4All = document.querySelectorAll("#nav h4");
+h4All.forEach((e) => {
+  e.addEventListener("mouseenter", () => {
+    cursor.style.backgroundColor = "transparent";
+    cursor.style.border = "1px solid #fff";
+  });
+  e.addEventListener("mouseleave", () => {
+    cursor.style.backgroundColor = "#95c11e";
+    cursor.style.border = "1px solid #95c11e";
+  });
+});
+
+gsap.from("#about-us img, #about-us-in", {
+  y: 50,
+  opacity: 0,
+  duration: 1,
+  stagger: 0.4,
+  scrollTrigger: {
+    trigger: "#about-us",
+    scroller: "body",
+    markers: true,
+    start: "top 60%",
+    end: "top 55%",
+    scrub: 3,
+  },
+});
