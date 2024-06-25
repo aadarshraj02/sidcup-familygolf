@@ -150,3 +150,14 @@ VanillaTilt.init(document.querySelector("#page3 p"), {
   reverse: true,
   reset: true,
 });
+
+gsap.from("#page4 h1", {
+  y: 50,
+  scrollTrigger: {
+    trigger: "#page4 h1",
+    scroller: "body",
+    start: "top 70%",
+    end: "top 60%",
+    scrub: 4,
+  },
+});
