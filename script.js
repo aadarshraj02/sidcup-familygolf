@@ -145,8 +145,8 @@ gsap.from("#colon2", {
 });
 
 VanillaTilt.init(document.querySelector("#page3 p"), {
-  max: 5,
-  speed: 200,
+  max: 10,
+  speed: 100,
   reverse: true,
-
+  reset: true,
 });
