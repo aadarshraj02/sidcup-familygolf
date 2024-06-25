@@ -158,6 +158,6 @@ gsap.from("#page4 h1", {
     scroller: "body",
     start: "top 70%",
     end: "top 60%",
-    scrub: 4,
+    scrub: 2,
   },
 });

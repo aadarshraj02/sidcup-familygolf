@@ -348,3 +348,8 @@ video {
   -webkit-text-stroke: 1px #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
+#footer {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to top right, #95c11e, #2fa733);
+}
