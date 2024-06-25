@@ -65,3 +65,19 @@ gsap.to("#main", {
 
 circleMouseFollow();
 circleSkew();
+
+function initializeTilt(selector, options) {
+  const elements = document.querySelectorAll(selector);
+  elements.forEach((element) => {
+    VanillaTilt.init(element, options);
+  });
+}
+
+const tiltOptions = {
+  max: 15,
+  speed: 400,
+  reverse: true,
+  reset: true,
+};
+
+initializeTilt(".cards", tiltOptions);

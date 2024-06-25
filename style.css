@@ -1,13 +1,10 @@
-@font-face {
-  font-family: mont;
-  src: url("montserrat-latin-400-normal.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: mont;
+  font-family: montserrat;
   color: #fff;
 }
 html,
@@ -64,6 +61,11 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
+  cursor: pointer;
+  transition: all linear 300ms;
+}
+#nav h4:hover {
+  color: #95c11e;
 }
 video {
   height: 100%;
@@ -140,9 +142,9 @@ video {
 #scroller h4 {
   display: inline-block;
   font-size: 7vw;
-  font-weight: 900;
+  font-weight: 800;
   margin-right: 10px;
-  -webkit-text-stroke: 0.5px #95c11e;
+  -webkit-text-stroke: 2px #95c11e;
   color: transparent;
   transition: all linear 0.3s;
 }
@@ -187,16 +189,17 @@ video {
   line-height: 1.5;
 }
 #cards-container {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
   position: relative;
+  overflow: hidden;
 }
 .cards {
-  height: 80%;
-  width: 22%;
+  height: 85%;
+  width: 25%;
   border-radius: 15px;
   background-size: cover;
   background-position: center;
@@ -237,6 +240,24 @@ video {
 .cards:hover .overlay {
   opacity: 1;
 }
-.cards:hover {
-  transform: rotate3d(1, 1, 0, 20deg);
+#green-div {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom right, #95c11e, #2fa733);
+  z-index: 10;
+}
+#green-div h2 {
+  width: 45%;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 900;
+}
+#green-div img {
+  height: 100%;
+  object-fit: cover;
+  width: 10%;
 }
