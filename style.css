@@ -12,6 +12,10 @@ body {
   height: 100%;
   width: 100%;
 }
+#main *::selection {
+  background-color: #fff;
+  color: #95c11e;
+}
 #cursor {
   height: 20px;
   width: 20px;
@@ -114,6 +118,29 @@ video {
   font-size: 17px;
   font-weight: 400;
   width: 45%;
+}
+
+#page1 #arrow {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  display: flex;
+  border: 2px solid #95c11e;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  left: -2%;
+  bottom: 0;
+  background-color: transparent;
+  transition: all ease 0.5s;
+}
+#arrow i {
+  font-size: 40px;
+  font-weight: 500;
+}
+#page1 #arrow:hover {
+  scale: 0.5;
+  background-color: #95c11e;
 }
 #page2 {
   min-height: 100vh;
