@@ -246,7 +246,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to bottom right, #95c11e, #2fa733);
+  background: linear-gradient(to left bottom, #95c11e, #2fa733);
   z-index: 10;
 }
 #green-div h2 {
