@@ -668,4 +668,25 @@ video {
     bottom: 20%;
     right: 10%;
   }
+  #page4 {
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .elem {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+  }
+  .elem h2 {
+    font-size: 20px;
+  }
+  #page4 h1 {
+    font-size: 30px;
+    position: absolute;
+    font-weight: 900;
+    top: -15%;
+    padding: 10px 20px;
+  }
 }
