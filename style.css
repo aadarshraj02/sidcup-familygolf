@@ -618,7 +618,7 @@ video {
     font-weight: 700;
   }
   #cafe {
-    height: 80vh;
+    height: 45vh;
     flex-direction: column;
   }
   #cafe-left {
@@ -648,6 +648,7 @@ video {
     border-radius: 25px;
   }
   #page3 {
+    height: 65vh;
     overflow: hidden;
   }
   #page3 p {
@@ -686,8 +687,9 @@ video {
     font-size: 30px;
     position: absolute;
     font-weight: 900;
-    top: -15%;
+    top: -10%;
     padding: 10px 20px;
+    text-align: center;
   }
   #footer {
     height: 40vh;
