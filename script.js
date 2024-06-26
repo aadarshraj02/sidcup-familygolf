@@ -122,8 +122,8 @@ gsap.from(".cards", {
 });
 
 gsap.from("#colon1", {
-  y: -50,
-  x: -50,
+  y: -30,
+  x: -30,
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
@@ -133,8 +133,8 @@ gsap.from("#colon1", {
   },
 });
 gsap.from("#colon2", {
-  y: 50,
-  x: 50,
+  y: 30,
+  x: 30,
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
