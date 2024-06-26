@@ -690,10 +690,11 @@ video {
     padding: 10px 20px;
   }
   #footer {
-    height: 30vh;
+    height: 40vh;
     flex-direction: column;
     gap: 10px;
     padding: 0 20px;
+    position: relative;
   }
   #footer > img {
     display: none;
@@ -717,6 +718,19 @@ video {
     display: none;
   }
   #copyright {
+    gap: 0;
+    width: 100%;
     flex-direction: column;
+  }
+  #copyright-left {
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+  }
+  #copyright-right {
+    display: none;
+  }
+  #cursor {
+    display: none;
   }
 }
