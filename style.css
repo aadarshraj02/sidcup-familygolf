@@ -506,3 +506,48 @@ video {
   font-size: 14px;
   color: #000;
 }
+
+/* Mobile devices (320px - 480px) */
+@media only screen and (max-width: 480px) {
+  #main {
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  #nav {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  #nav h4 {
+    display: none;
+  }
+  #nav img {
+    height: 80%;
+  }
+  #page1 h1 {
+    font-size: 9vw;
+  }
+
+  #page1 h2 {
+    font-size: 18px;
+  }
+  #page1 p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 50%;
+    text-align: left;
+  }
+
+  #page1 #arrow {
+    height: 100px;
+    width: 100px;
+  }
+  #arrow i {
+    font-size: 30px;
+    font-weight: 300;
+  }
+}
