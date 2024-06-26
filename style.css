@@ -647,5 +647,25 @@ video {
     padding: 10px 18px;
     border-radius: 25px;
   }
-
+  #page3 {
+    overflow: hidden;
+  }
+  #page3 p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 50%;
+    line-height: 1.5;
+  }
+  #page3 img {
+    height: 30px;
+    position: absolute;
+  }
+  #colon1 {
+    left: 10%;
+    top: 22%;
+  }
+  #colon2 {
+    bottom: 20%;
+    right: 10%;
+  }
 }
