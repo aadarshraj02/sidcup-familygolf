@@ -689,4 +689,34 @@ video {
     top: -15%;
     padding: 10px 20px;
   }
+  #footer {
+    height: 30vh;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+  }
+  #footer > img {
+    display: none;
+  }
+  #f1 img {
+    height: 50px;
+    margin: 10px 0;
+  }
+  #f2 h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  #f3 h3 {
+    display: none;
+  }
+  #f4 h4 {
+    display: none;
+  }
+  #copyright {
+    flex-direction: column;
+  }
 }
