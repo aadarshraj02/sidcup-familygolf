@@ -618,7 +618,7 @@ video {
     font-weight: 700;
   }
   #cafe {
-    height: 45vh;
+    height: 55vh;
     flex-direction: column;
   }
   #cafe-left {
@@ -692,7 +692,7 @@ video {
     text-align: center;
   }
   #footer {
-    height: 40vh;
+    height: 35vh;
     flex-direction: column;
     gap: 10px;
     padding: 0 20px;
