@@ -529,7 +529,7 @@ video {
     height: 80%;
   }
   #page1 h1 {
-    font-size: 9vw;
+    font-size: 30px;
   }
 
   #page1 h2 {
@@ -552,7 +552,7 @@ video {
   }
 
   #scroller h4 {
-    font-size: 8vw;
+    font-size: 35px;
     font-weight: 900;
     margin-right: 7px;
   }
